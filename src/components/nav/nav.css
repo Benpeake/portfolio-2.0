@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.2vw;
+    padding: 1.5vw 0;
+}
+
+.left-right{
+    display: flex;
+    gap: 1vw;
+}
+
+.navLink{
+    position: relative;
+    padding: 0.6vw 0.7vw;
+    border-radius: 0.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s ease, color .1s ease;
+}
+    .navLink:hover{
+        background: var(--black);
+        color: var(--white);
+    }
+

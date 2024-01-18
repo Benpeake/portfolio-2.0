@@ -1,1 +1,49 @@
 
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+:root {
+--black: #000000;
+--off-black: #171923;
+--silver: #B9B5AB;
+--platinum: #E4E2DD;
+--smoke: #F2F2F2;
+--white: #FFFFFF;
+--green: #1AFF00;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--smoke);
+  color: var(--black);
+}
+
+html{
+  margin: 0;
+}
+
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0 2vw;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active{
+  color: inherit;
+}
+
+
