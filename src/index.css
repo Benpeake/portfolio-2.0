@@ -32,6 +32,11 @@ body, h1, h2, h3, p, ul, li {
 
 body{
   margin: 0 2vw;
+  font-size: 1.2vw;
+}
+
+section{
+  padding: 1.5vw 0;
 }
 
 ul, ol {
@@ -40,10 +45,40 @@ ul, ol {
 
 a {
   text-decoration: none;
+  color: inherit;
+}
+
+.link{
+  display: inline-block;
+  padding-bottom: .4vw;
+  position: relative;
+}
+.link::before{
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: .11vw;
+  background-color: var(--black);
+  transition: width 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+}
+.link:hover::before{
+  width: 100%;
+  left: 0;
+  right: auto;
 }
 
 .active{
   color: inherit;
+}
+
+.bold{
+  font-weight: 900;
+}
+
+h1{
+  font-size: 3.1vw;
 }
 
 
