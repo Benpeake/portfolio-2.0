@@ -74,11 +74,42 @@ a {
 }
 
 .bold{
-  font-weight: 900;
+  font-weight: 600;
 }
 
-h1{
-  font-size: 3.1vw;
+h2{
+  font-size: 5vw;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+@media screen and (max-width: 1000px){
+  body{
+    margin: 0 2vw;
+    font-size: 12px;
+  }
+  
+  section{
+    padding: 15px 0;
+  }
+  
+  .link{
+    padding-bottom: 4px;
+  }
+  .link::before{
+    height: 11px;
+  }
+  
+  h2{
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  
+  h2{
+    font-size: 36px;
+  }
 }
 
 

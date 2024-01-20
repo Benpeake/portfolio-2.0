@@ -1,0 +1,33 @@
+.bio-section{
+    display: flex;
+}
+
+.contact-section{
+    display: flex;
+    gap: 6.8vw;
+}
+
+.bio-text-overlay{
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1000px){
+
+    .contact-section{
+        gap: 68px;
+    }
+
+  }
+  
+  @media screen and (max-width: 600px){
+
+    .contact-section{
+        gap: 37.8px;
+    }
+
+    .mobileHide{
+        display: none;
+    }
+
+  }
+  

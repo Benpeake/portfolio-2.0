@@ -26,3 +26,18 @@ nav{
         color: var(--white);
     }
 
+    @media screen and (max-width: 1000px){
+        nav{
+            padding: 15px 0;
+        }
+        
+        .left-right{
+            gap: 10px;
+        }
+        
+        .navLink{
+            padding: 6px 7px;
+            border-radius: 5px;
+        }
+      }
+      
