@@ -1,0 +1,9 @@
+.work-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5vw 0;
+    gap: 2.4vw;
+}
+

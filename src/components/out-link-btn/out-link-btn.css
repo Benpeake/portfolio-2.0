@@ -1,0 +1,30 @@
+.out-link-btn{
+    display: inline-block;
+    font-size: 1vw;
+    padding: 0.4vw 0.5vw;
+    border-radius: 0.5vw;
+    border: .1vw solid var(--black);
+}
+.out-link-btn:hover{
+    color: var(--silver);
+    border: .1vw solid var(--silver);
+    background-color: var(--black);
+    cursor: pointer;
+}
+
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3vw;
+}
+
+.arrow-icon{
+    height: .7vw;
+    fill: var(--black);
+}
+
+.out-link-btn:hover > .btn-container > .arrow-icon {
+    fill: var(--silver);
+}

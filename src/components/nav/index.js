@@ -6,19 +6,20 @@ function Nav() {
   return (
     <>
       <motion.nav
-        initial={{ opacity: 0, y: -100 }}
+        initial={{ opacity: 0, y: -50}}
         animate={{
-          y: 0,
           opacity: 1,
+          y: 0,
           transition: {
-            opacity: {
-              duration: 1,
-              delay: 0.4,
-            },
             y: {
-              duration: 0.8,
-              ease: [0.34, 1.56, 0.64, 1],
-              delay: 0.2,
+              duration: 0.6,
+              ease: [0.83, 0, 0.17, 1],
+              delay: 0.6,
+            },
+            opacity: {
+              duration: 0.6,
+              ease: [0.12, 0, 0.39, 0],
+              delay: 0.5,
             },
           },
         }}
