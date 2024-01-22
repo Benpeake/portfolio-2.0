@@ -5,20 +5,20 @@ import { motion, useScroll } from "framer-motion";
 function Project({ img, title, what, why, how, liveLink, github, tech }) {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 200 }}
+      initial={{ opacity: 0, y: 120 }}
       whileInView={{
         opacity: 1,
         y: 0,
         transition: {
           y: {
-            duration: 0.6,
+            duration: 0.4,
             ease: [0.83, 0, 0.17, 1],
-            delay: 0.6,
+            delay: 0.4,
           },
           opacity: {
-            duration: 0.6,
+            duration: 0.4,
             ease: [0.12, 0, 0.39, 0],
-            delay: 0.5,
+            delay: 0.4,
           },
         },
       }}

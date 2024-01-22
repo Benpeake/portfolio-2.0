@@ -67,3 +67,54 @@
 .tech-item{
     padding-bottom: .4vw;
 }
+
+@media screen and (max-width: 1000px){
+    .project-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 16px;
+        gap: 12px;
+        border-radius: 15px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.06);
+    }
+    
+    .project-img{
+        border-radius: 10px;
+        border: solid 3px var(--smoke); 
+    }
+    
+    .project-info-container{
+        gap: 15px;
+    }
+    
+    .title-container{
+        padding-bottom: 4px;
+        border-bottom: solid 1px var(--silver) ;
+    }
+    
+    .project-subinfo-container{
+        gap: 4px;
+        padding-top: 8px;
+    }
+    
+    .project-subheading{
+        padding: 4px 5px;
+        border-radius: 5px;
+        padding-bottom: 4px;
+    }
+    
+    .project-btn-container{
+        gap: 9px;
+        padding-top: 8px;
+    }
+    
+    .tech-container{
+        gap: 6px;
+    }
+    
+    .tech-item{
+        padding-bottom: 4px;
+    }
+
+  }
+

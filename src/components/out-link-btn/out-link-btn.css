@@ -6,8 +6,8 @@
     border: .1vw solid var(--black);
 }
 .out-link-btn:hover{
-    color: var(--silver);
-    border: .1vw solid var(--silver);
+    color: var(--white);
+    border: .1vw solid var(--black);
     background-color: var(--black);
     cursor: pointer;
 }
@@ -26,5 +26,27 @@
 }
 
 .out-link-btn:hover > .btn-container > .arrow-icon {
-    fill: var(--silver);
+    fill: var(--platinum);
 }
+
+@media screen and (max-width: 1000px){
+    .out-link-btn{
+        font-size: 10px;
+        padding: 4px 5px;
+        border-radius: 5px;
+        border: 1px solid var(--black);
+    }
+    .out-link-btn:hover{
+        border: 1px solid var(--white);
+    }
+    
+    
+    .btn-container{
+        gap: 3px;
+    }
+    
+    .arrow-icon{
+        height: 7px;
+    }
+
+  }

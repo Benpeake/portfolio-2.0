@@ -32,12 +32,11 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body{
-  margin: 0 2vw;
   font-size: 1.2vw;
 }
 
 section{
-  padding: 1.5vw 0;
+  padding: 1.5vw 2vw;
 }
 
 ul, ol {
@@ -95,28 +94,44 @@ h3{
 }
 
 @media screen and (max-width: 1000px){
+
   body{
-    margin: 0 2vw;
     font-size: 12px;
   }
   
   section{
-    padding: 15px 0;
+    padding: 15px 20px;
   }
   
   .link{
     padding-bottom: 4px;
   }
   .link::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
     height: .8px;
+    background-color: var(--black);
+    transition: width 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+  }
+  .link:hover::before{
+    width: 100%;
+    left: 0;
+    right: auto;
   }
   
   h2{
     font-size: 50px;
   }
-
+  
   h3{
     font-size: 19px;
+  }
+  
+  .smaller{
+    font-size: 10px;
   }
 }
 
@@ -125,6 +140,11 @@ h3{
   h2{
     font-size: 36px;
   }
+
+  section{
+    padding: 15px 15px;
+  }
+  
 }
 
 
