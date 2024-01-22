@@ -65,7 +65,7 @@ function Bio() {
           ))}
         </div>
       </section>
-      <section className="contact-section">
+      <section className="contact-section" id="work-section">
         <BioContact
           title="Contact"
           link="mailto:benpeake.dev@gmail.com"

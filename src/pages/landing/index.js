@@ -6,9 +6,9 @@ function Landing () {
 
     return(
         <>
-        <Bio />
-        <WorkSection />
-        <About />
+      <Bio />
+      <WorkSection />
+      <About />
         </>
     )
 

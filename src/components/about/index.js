@@ -3,7 +3,7 @@ import "./about.css";
 function About() {
   return (
     <>
-      <section className="about-section">
+      <section className="about-section"  id="about-section" >
         <div className="about-sub-section">
           <div className="about-title">
             <div className="circle">1</div>
@@ -40,7 +40,7 @@ function About() {
                 Fiasco Design
               </a>
               . This journey fuelled a passion for coding, leading me to
-              complete an intense full-stack bootcamp with <a
+              complete a full-stack, award-winning bootcamp with <a
                 className="body-link"
                 href="https://io-academy.uk/"
                 target="_blank"

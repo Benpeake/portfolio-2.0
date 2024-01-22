@@ -1,0 +1,116 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5vw 2vw;
+    border-top: solid .1vw transparent;
+}
+
+.footer-right{
+    display: flex;
+    gap: 2.4vw;
+    align-items: center;
+}
+
+.up-icon {
+    height: 1.15vw;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .up-icon-container {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    border: solid .1vw var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .up-icon-container:hover {
+    cursor: pointer;
+  }
+  
+  .up-icon-container:hover .up-icon {
+    animation: moveUp 0.2s forwards, returnFromBelow 0.2s 0.2s forwards;
+  }
+  
+  .up-icon-container:not(:hover) .up-icon {
+    animation: moveDown 0.2s forwards, returnFromAbove 0.2s 0.2s forwards;
+  }
+  
+  @keyframes moveUp {
+    to {
+      transform: translateY(-200%);
+    }
+  }
+  
+  @keyframes returnFromBelow {
+    from {
+      transform: translateY(200%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes moveDown {
+    to {
+      transform: translateY(200%);
+    }
+  }
+  
+  @keyframes returnFromAbove {
+    from {
+      transform: translateY(-200%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  
+
+  @media screen and (max-width: 1000px){
+
+    footer{
+        padding: 25px 20px;
+        border-top: solid 1px transparent;
+        flex-direction: row;
+    }
+    
+    .footer-right{
+        gap: 24px;
+    }
+    
+    .up-icon{
+        height: 11.5px;
+    }
+    
+    .up-icon-container {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: solid 1px var(--black);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+
+  }
+  
+
+  @media screen and (max-width: 700px){
+
+    footer{
+        flex-direction: column;
+        align-items: start;
+        gap: 25px;
+    }
+
+  }
+  

@@ -26,7 +26,7 @@
 }
 
 .out-link-btn:hover > .btn-container > .arrow-icon {
-    fill: var(--platinum);
+    fill: var(--white);
 }
 
 @media screen and (max-width: 1000px){

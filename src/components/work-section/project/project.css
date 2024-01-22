@@ -5,7 +5,7 @@
     gap: 2.4vw;
     background-color: var(--platinum);
     border-radius: 1.5vw;
-    box-shadow: 0 0 .5vw rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 .5vw rgba(0, 0, 0, 0.03);
 }
 
 .project-img{
@@ -75,7 +75,7 @@
         padding: 16px;
         gap: 12px;
         border-radius: 15px;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.06);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.03);
     }
     
     .project-img{

@@ -1,10 +1,9 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { animate, motion } from "framer-motion";
 import "./nav.css";
 import { useEffect, useState } from "react";
 
 function Nav() {
-
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -22,11 +21,19 @@ function Nav() {
     };
   }, [scrolled]);
 
+  function scrollToTop () {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' 
+    });
+  };
+
   return (
     <>
       <motion.nav
         className={scrolled ? "scrolled" : ""}
-        initial={{ opacity: 0, y: -30}}
+        id="top-section"
+        initial={{ opacity: 0, y: -30 }}
         animate={{
           opacity: 1,
           y: 0,
@@ -45,15 +52,15 @@ function Nav() {
         }}
       >
         <div className="left-nav bold">
-          <NavLink to="/">Ben Peake</NavLink>
+          <NavLink onClick={scrollToTop}>Ben Peake</NavLink>
         </div>
         <div className="left-right">
-          <NavLink className="navLink" to="/">
+          <Link className="navLink" to="#work-section">
             Work
-          </NavLink>
-          <NavLink className="navLink" to="/">
+          </Link>
+          <Link className="navLink" to="#about-section">
             About
-          </NavLink>
+          </Link>
           <NavLink className="navLink" to="/">
             PixelPad
           </NavLink>
