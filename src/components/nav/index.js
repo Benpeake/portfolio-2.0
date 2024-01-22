@@ -52,6 +52,9 @@ function Nav() {
             Work
           </NavLink>
           <NavLink className="navLink" to="/">
+            About
+          </NavLink>
+          <NavLink className="navLink" to="/">
             PixelPad
           </NavLink>
           <NavLink className="navLink" to="/">
