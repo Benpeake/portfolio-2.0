@@ -59,9 +59,13 @@ function Nav({ onLanding }) {
           )}
         </div>
         <div className="left-right">
-          <Link className="navLink" to="/#work-section">
-            Work
-          </Link>
+          {onLanding ? (
+            <Link className="navLink" onClick={scrollToTop}>
+              Work
+            </Link>
+          ) : (
+            <Link className="navLink" to="/">Work</Link>
+          )}
           <Link className="navLink" to="/#about-section">
             About
           </Link>

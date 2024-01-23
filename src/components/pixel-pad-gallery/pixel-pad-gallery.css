@@ -1,8 +1,8 @@
 .pixel-pad-gallery-section{
     margin: 1.5vw 0;
     gap: 2.4vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+   flex-wrap: wrap;
 }
 
 .component-container{
@@ -12,6 +12,8 @@
     padding: 1.6vw;
     border-radius: 1.5vw;
     box-shadow: 0 0 .5vw rgba(0, 0, 0, 0.03);
+    width: fit-content;
+    height: fit-content;
 }
 
 .component-title{
@@ -22,13 +24,14 @@
     color: var(--white);
     padding-bottom: .4vw;
     width: fit-content;
-    margin-bottom: 1.2vw;
+    height: fit-content;
+    margin-bottom: 2.4vw;
 }
 
 .component-info{
     border-top: solid .1vw ;
     padding-top: .4vw;
-    margin-top: 1.2vw;
+    margin-top: 2.4vw;
 }
 
 @media screen and (max-width: 1000px){
@@ -36,7 +39,6 @@
     .pixel-pad-gallery-section{
         margin: 15px 0;
         gap: 24px;
-        grid-template-columns: 1fr 1fr 1fr;
     }
     
     .component-container{
@@ -51,13 +53,13 @@
         padding: 4px 5px;
         border-radius: 5px;
         padding-bottom: 4px;
-        margin-bottom: 12px;
+        margin-bottom: 24px;
     }
     
     .component-info{
         border-top: solid 1px ;
         padding-top: 4px;
-        margin-top: 12px;
+        margin-top: 24px;
     }
     
 

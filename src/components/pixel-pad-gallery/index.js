@@ -1,4 +1,5 @@
 import PalettePicker from "../../pixel-pad-components/palette-picker";
+import ViridisLogo from "../../pixel-pad-components/viridis-logo";
 import "./pixel-pad-gallery.css";
 
 function PixelPadGallery() {
@@ -6,14 +7,24 @@ function PixelPadGallery() {
     {
       id: 0,
       component: PalettePicker,
-      layout: "vertical-down",
       copy: "Hover to see hex value, click to copy to clipboard!",
       title: "hex-color widget",
       titleColor: "#FFFFFF",
-      titleBgColor: "#B9B5AB",
-      bgColor: "#E4E2DD",
+      titleBgColor: "#000",
+      bgColor: "#FFFBDE",
       fontColor: "#000"
     },
+    {
+        id: 1,
+        component: ViridisLogo,
+        copy: "logo desing and svg animation",
+        title: "Viridis logo",
+        titleColor: "#FFFFFF",
+        titleBgColor: "#1A2218",
+        bgColor: "#E8F9DC",
+        fontColor: "#1A2218"
+      },
+    
   ];
 
   return (

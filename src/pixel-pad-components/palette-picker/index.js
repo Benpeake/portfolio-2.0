@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./palette-picker.css";
-import OutLinkBtn from "../../components/out-link-btn";
 
 function PalettePicker() {
   const [hoveredColor, setHoveredColor] = useState(null);
