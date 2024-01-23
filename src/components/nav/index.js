@@ -3,7 +3,7 @@ import { animate, motion } from "framer-motion";
 import "./nav.css";
 import { useEffect, useState } from "react";
 
-function Nav() {
+function Nav({ onLanding }) {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -21,12 +21,12 @@ function Nav() {
     };
   }, [scrolled]);
 
-  function scrollToTop () {
+  function scrollToTop() {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth' 
+      behavior: "smooth",
     });
-  };
+  }
 
   return (
     <>
@@ -52,16 +52,20 @@ function Nav() {
         }}
       >
         <div className="left-nav bold">
-          <NavLink onClick={scrollToTop}>Ben Peake</NavLink>
+          {onLanding ? (
+            <Link onClick={scrollToTop}>Ben Peake</Link>
+          ) : (
+            <Link to="/">Ben Peake</Link>
+          )}
         </div>
         <div className="left-right">
-          <Link className="navLink" to="#work-section">
+          <Link className="navLink" to="/#work-section">
             Work
           </Link>
-          <Link className="navLink" to="#about-section">
+          <Link className="navLink" to="/#about-section">
             About
           </Link>
-          <NavLink className="navLink" to="/">
+          <NavLink className="navLink" to="/pixelpad">
             PixelPad
           </NavLink>
           <NavLink className="navLink" to="/">

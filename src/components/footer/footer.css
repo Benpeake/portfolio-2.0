@@ -4,7 +4,8 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 2.5vw 2vw;
-    border-top: solid .1vw transparent;
+    border-top: solid .1vw var(--black);
+    margin: -.15vw;
 }
 
 .footer-right{
@@ -77,8 +78,9 @@ footer{
 
     footer{
         padding: 25px 20px;
-        border-top: solid 1px transparent;
+        border-top: solid 1px var(--black);
         flex-direction: row;
+        margin: -1.5px;
     }
     
     .footer-right{

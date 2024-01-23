@@ -39,8 +39,8 @@ function About() {
               >
                 Fiasco Design
               </a>
-              . This journey fuelled a passion for coding, leading me to
-              complete a full-stack, award-winning bootcamp with <a
+              . This journey ultimately sparked a passion for coding, leading me to
+              complete a full-stack bootcamp with <a
                 className="body-link"
                 href="https://io-academy.uk/"
                 target="_blank"

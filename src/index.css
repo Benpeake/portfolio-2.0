@@ -19,6 +19,9 @@ html {
   scroll-behavior: smooth;
 }
 
+button{
+  all:unset;
+}
 
 body {
   font-family: 'DM Sans', sans-serif;
