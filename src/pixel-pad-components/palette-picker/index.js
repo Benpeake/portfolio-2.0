@@ -84,7 +84,7 @@ function PalettePicker() {
             </div>
           ))}
         </div>
-        <div className="generate-colors-container">
+        <div className="pp-button-container">
           <button onClick={generateRandomColors}>Show me new colors!</button>
         </div>
       </div>

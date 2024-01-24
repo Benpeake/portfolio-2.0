@@ -40,7 +40,7 @@
     gap: 1.2vw;
   }
 
-.generate-colors-container{
+.pp-button-container{
     display: flex;
     justify-content: end;
 }

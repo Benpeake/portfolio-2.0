@@ -1,8 +1,14 @@
 #logo-viridis{
     fill: #1A2218;
-    width: 50vw;
 }
 
 .logo-viridis{
     width: 25vw;
+}
+
+svg{overflow: visible;}
+
+.logo-animation-container{
+    display: grid;
+    gap: 1.2vw;
 }

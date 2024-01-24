@@ -11,20 +11,20 @@ function PixelPadGallery() {
       title: "hex-color widget",
       titleColor: "#FFFFFF",
       titleBgColor: "#000",
-      bgColor: "#FFFBDE",
+      bgColor: "#FFFAED",
       fontColor: "#000"
     },
     {
         id: 1,
         component: ViridisLogo,
-        copy: "logo desing and svg animation",
+        copy: "logo design and svg animation",
         title: "Viridis logo",
         titleColor: "#FFFFFF",
         titleBgColor: "#1A2218",
-        bgColor: "#E8F9DC",
+        bgColor: "#B9B5AB",
         fontColor: "#1A2218"
       },
-    
+
   ];
 
   return (

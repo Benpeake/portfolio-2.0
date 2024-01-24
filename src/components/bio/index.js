@@ -44,7 +44,7 @@ function Bio() {
                 initial={{ opacity: 0.01, y: 100 }}
                 animate={{
                   y: 0,
-                  opacity: .8,
+                  opacity: 1,
                   transition: {
                     y: {
                       duration: 0.8,

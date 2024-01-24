@@ -3,6 +3,8 @@
     gap: 2.4vw;
     display: flex;
    flex-wrap: wrap;
+   justify-content: start;
+   align-items: center;
 }
 
 .component-container{
@@ -12,8 +14,8 @@
     padding: 1.6vw;
     border-radius: 1.5vw;
     box-shadow: 0 0 .5vw rgba(0, 0, 0, 0.03);
-    width: fit-content;
-    height: fit-content;
+    /* width: fit-content;
+    height: fit-content; */
 }
 
 .component-title{
