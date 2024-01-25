@@ -17,7 +17,7 @@ function WorkSection () {
         },
         {
             id: 1,
-            title: "Colecction App",
+            title: "Collection App",
             img: "../../../images/collection-app.png",
             liveLink: "https://2023-benp.dev.io-academy.uk/collection/index.php",
             github: "https://github.com/Benpeake/collection",

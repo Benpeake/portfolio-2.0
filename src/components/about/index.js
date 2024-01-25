@@ -11,9 +11,9 @@ function About() {
           </div>
           <div className="about-copy">
             <p>
-              I&apos;m detail-oriented, I loves to make thing, I love to learn and
-              I&apos;m both pragmatic and creative. Outside of the digital realm my
-              interests include food, illustration, football and chess.
+              I&apos;m detail-oriented, I loves to make thing, I love to learn
+              and I&apos;m both pragmatic and creative. Outside of the digital
+              realm my interests include food, illustration, football and chess.
             </p>
           </div>
         </div>
@@ -24,30 +24,29 @@ function About() {
           </div>
           <div className="about-copy">
             <p>
-              After a successful 8-years in recruitment, where I played a
+              After a successful 8 years in recruitment, where I played a
               pivotal role in shaping a start-up, I sought a new challenge.
               Taking a leap, I left my position to set up a street food business
-              (coffee + cannoli if you&apos;re wondering), giving myself the
-              space to figure out what&apos;s next... In the subsequent year, I
-              taught myself graphic design, and gained professional experience
-              with{" "}
+              (coffee + cannoli if you're wondering!), giving myself the space
+              to figure out what's next... In the time since, I&apos;ve taught
+              myself graphic design and gained professional experience with{" "}
               <a
                 className="body-link"
                 href="https://fiasco.design/"
                 target="_blank"
                 rel="noopener"
               >
-                Fiasco Design
+                <u>Fiasco Design</u>
               </a>
-              . This journey ultimately sparked a passion for coding, leading me
-              to complete a full-stack bootcamp with{" "}
+              {" "}through which I discovered a passion for coding, leading me to
+              complete a full-stack bootcamp at{" "}
               <a
                 className="body-link"
                 href="https://io-academy.uk/"
                 target="_blank"
                 rel="noopener"
               >
-                iO-Academy
+                <u>iO-Academy</u>
               </a>
               .
             </p>

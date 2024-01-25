@@ -19,11 +19,11 @@
 .project-info-container{
     display: flex;
     flex-direction: column;
-    gap: 1.5vw;
+    gap: 1.6vw;
 }
 
 .title-container{
-    padding-bottom: 1.2vw;
+    padding-bottom: 1.6vw;
     border-bottom: solid .1vw var(--black) ;
     display: flex;
     justify-content: space-between;
@@ -43,8 +43,8 @@
 .project-subinfo-container{
     display: flex;
     flex-direction: column;
-    gap: .4vw;
-    padding-top: .8vw;
+    /* gap: .2vw; */
+    /* padding-top: .2vw; */
 }
 
 .project-subheading{
@@ -93,17 +93,17 @@
     }
     
     .project-info-container{
-        gap: 15px;
+        gap: 16px;
     }
     
     .title-container{
-        padding-bottom:12px;
-        border-bottom: solid 1px var(--silver) ;
+        padding-bottom:16px;
+        border-bottom: solid 1px var(--black) ;
     }
     
     .project-subinfo-container{
-        gap: 4px;
-        padding-top: 8px;
+        /* gap: 2px;
+        padding-top: 8px; */
     }
     
     .project-subheading{
