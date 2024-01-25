@@ -23,12 +23,21 @@
 }
 
 .title-container{
-    padding-bottom: .4vw;
-    border-bottom: solid .1vw var(--silver) ;
+    padding-bottom: 1.2vw;
+    border-bottom: solid .1vw var(--black) ;
     display: flex;
     justify-content: space-between;
     align-items: end;
+}
 
+.project-title{
+    padding: 0.4vw 0.5vw;
+    border-radius: 0.5vw;
+    background-color: var(--black);
+    color: var(--white);
+    padding-bottom: .4vw;
+    width: fit-content;
+    height: fit-content;
 }
 
 .project-subinfo-container{
@@ -88,7 +97,7 @@
     }
     
     .title-container{
-        padding-bottom: 4px;
+        padding-bottom:12px;
         border-bottom: solid 1px var(--silver) ;
     }
     
@@ -113,6 +122,12 @@
     }
     
     .tech-item{
+        padding-bottom: 4px;
+    }
+
+    .project-title{
+        padding: 4px 5px;
+        border-radius: 5px;
         padding-bottom: 4px;
     }
 

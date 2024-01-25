@@ -30,7 +30,7 @@ function Project({ img, title, what, why, how, liveLink, github, tech }) {
       </div>
       <div className="project-info-container">
         <div className="title-container">
-          <h3>{title}</h3>
+          <p className="project-title">{title}</p>
           <div className="tech-container">
             {tech.map((tech, index) => (
               <p className="smaller tech-item" key={index}>

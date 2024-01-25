@@ -34,6 +34,7 @@ function PixelPadGallery() {
           const Component = item.component;
           return (
         <div className="component-container"
+        key={index}
         style={{backgroundColor: item.bgColor}}
         >
             <div className="component-title"

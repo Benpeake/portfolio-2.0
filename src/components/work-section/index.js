@@ -29,7 +29,7 @@ function WorkSection () {
         {
             id: 2,
             title: "Viridis",
-            img: "../../../images/viridis.png",
+            img: "../../../images/viridis2.png",
             liveLink: "https://benpeake.github.io/viridis-site/",
             github: "https://github.com/Benpeake/viridis-site",
             tech: ["html", "|", "css", "|", "javascript"],

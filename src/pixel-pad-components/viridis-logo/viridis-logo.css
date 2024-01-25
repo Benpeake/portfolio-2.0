@@ -12,3 +12,16 @@ svg{overflow: visible;}
     display: grid;
     gap: 1.2vw;
 }
+
+@media screen and (max-width: 1000px){
+    
+    .logo-viridis{
+        width: 250px;
+    }
+    
+    .logo-animation-container{
+        display: grid;
+        gap: 12px;
+    }
+
+  }
