@@ -72,7 +72,7 @@ function Nav({ onLanding }) {
           <NavLink className="navLink" to="/pixelpad">
             PixelPad
           </NavLink>
-          <a className="navLink" href="../../../images/benpeake-CV.pdf" target="_blank">
+          <a className="navLink" href="https://benpeake.github.io/cv/benpeake-cv.pdf" target="_blank" rel="noopener">
             CV
           </a>
         </div>
