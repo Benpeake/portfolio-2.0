@@ -72,7 +72,7 @@ function Nav({ onLanding }) {
           <NavLink className="navLink" to="/pixelpad">
             PixelPad
           </NavLink>
-          <a download className="navLink" href={process.env.PUBLIC_URL + "/pdf/benpeake-CV.pdf"} target="_blank" rel="noopener noreferrer">
+          <a className="navLink" href="../../../images/benpeake-CV.pdf" target="_blank">
             CV
           </a>
         </div>
