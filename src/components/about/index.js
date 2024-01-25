@@ -3,7 +3,7 @@ import "./about.css";
 function About() {
   return (
     <>
-      <section className="about-section"  id="about-section" >
+      <section className="about-section" id="about-section">
         <div className="about-sub-section">
           <div className="about-title">
             <div className="circle">1</div>
@@ -11,9 +11,9 @@ function About() {
           </div>
           <div className="about-copy">
             <p>
-              I&apos;m an enthusiastic individual, with diverse experience and a
-              desire to continually learn. I&apos;m detail-oriented and both
-              pragmatic and creative.
+              I&apos;m detail-oriented, I loves to make thing, I love to learn and
+              I&apos;m both pragmatic and creative. Outside of the digital realm my
+              interests include food, illustration, football and chess.
             </p>
           </div>
         </div>
@@ -30,7 +30,7 @@ function About() {
               (coffee + cannoli if you&apos;re wondering), giving myself the
               space to figure out what&apos;s next... In the subsequent year, I
               taught myself graphic design, and gained professional experience
-              with {" "}
+              with{" "}
               <a
                 className="body-link"
                 href="https://fiasco.design/"
@@ -39,15 +39,17 @@ function About() {
               >
                 Fiasco Design
               </a>
-              . This journey ultimately sparked a passion for coding, leading me to
-              complete a full-stack bootcamp with <a
+              . This journey ultimately sparked a passion for coding, leading me
+              to complete a full-stack bootcamp with{" "}
+              <a
                 className="body-link"
                 href="https://io-academy.uk/"
                 target="_blank"
                 rel="noopener"
               >
-                    iO-Academy
-                </a>.
+                iO-Academy
+              </a>
+              .
             </p>
           </div>
         </div>
@@ -60,9 +62,9 @@ function About() {
             <p>
               Passionate about digital experiences that are seamless, memorable
               and useful! I&apos;m curios by the intersection of design and
-              front-end development, and enjoy the UI/UX aspects of building applications
-              ...that&apos;s not to say I don&apos;t get a kick out of building a
-              robust RESTful API!
+              front-end development, and enjoy the UI/UX aspects of building
+              applications ...that&apos;s not to say I don&apos;t get a kick out
+              of building a robust RESTful API!
             </p>
           </div>
         </div>

@@ -72,9 +72,9 @@ function Nav({ onLanding }) {
           <NavLink className="navLink" to="/pixelpad">
             PixelPad
           </NavLink>
-          <NavLink className="navLink" to="/">
+          <a className="navLink" href="../../../pdf/benpeake-CV.pdf" target="_blank" rel="noopener">
             CV
-          </NavLink>
+          </a>
         </div>
       </motion.nav>
     </>
