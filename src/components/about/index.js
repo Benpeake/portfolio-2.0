@@ -11,7 +11,7 @@ function About() {
           </div>
           <div className="about-copy">
             <p>
-              I&apos;m detail-oriented, I loves to make thing, I love to learn
+              I&apos;m detail-oriented, I loves to make things, I love to learn
               and I&apos;m both pragmatic and creative. Outside of the digital
               realm my interests include food, illustration, football and chess.
             </p>
