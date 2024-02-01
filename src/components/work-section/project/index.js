@@ -11,7 +11,7 @@ function Project({ img, title, what, why, how, liveLink, github, tech }) {
         y: 0,
         transition: {
           y: {
-            duration: 0.8,
+            duration: 1,
             ease: [0.83, 0, 0.17, 1],
             delay: 0.1,
           },
