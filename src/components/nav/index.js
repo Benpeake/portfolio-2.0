@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 function Nav({ onLanding }) {
   const [scrolled, setScrolled] = useState(false);
   const vh = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-  const relativeYOffset = -vh * 0.06; 
+  const relativeYOffset = -vh * 0.04; 
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,7 +35,7 @@ function Nav({ onLanding }) {
       <motion.nav
         className={scrolled ? "scrolled" : ""}
         id="top-section"
-        initial={{ opacity: 0.1, y: relativeYOffset }}
+        initial={{ opacity: 0.01, y: relativeYOffset }}
         animate={{
           opacity: 1,
           y: 0,
