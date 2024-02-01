@@ -11,14 +11,14 @@ function Project({ img, title, what, why, how, liveLink, github, tech }) {
         y: 0,
         transition: {
           y: {
-            duration: .9,
+            duration: .8,
             ease: [0.83, 0, 0.17, 1],
-            delay: 0.1,
+            delay: 0,
           },
           opacity: {
             duration: 0.4,
             ease: [0.12, 0, 0.39, 0],
-            delay: 0.4,
+            delay: 0.2,
           },
         },
       }}

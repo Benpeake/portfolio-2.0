@@ -47,14 +47,14 @@ function Bio() {
                   opacity: 1,
                   transition: {
                     y: {
-                      duration: .9,
+                      duration: .8,
                       ease: [0.83, 0, 0.17, 1],
-                      delay: 0.1,
+                      delay: 0,
                     },
                     opacity: {
                       duration: 0.4,
                       ease: [0.12, 0, 0.39, 0],
-                      delay: 0.3,
+                      delay: 0.2,
                     },
                   },
                 }}

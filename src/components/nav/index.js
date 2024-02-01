@@ -43,12 +43,12 @@ function Nav({ onLanding }) {
             y: {
               duration: 0.4,
               ease: [0.83, 0, 0.17, 1],
-              delay: 0.4,
+              delay: 0.7,
             },
             opacity: {
               duration: 0.3,
               ease: [0.12, 0, 0.39, 0],
-              delay: 0.5,
+              delay: 0.8,
             },
           },
         }}

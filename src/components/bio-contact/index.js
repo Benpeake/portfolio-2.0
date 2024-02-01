@@ -12,14 +12,14 @@ function BioContact ({ title, link, linkText, nonLinkText, mobileHide }) {
         animate={{x: 0, opacity: 1,
           transition: {
             x: {
-              duration: 0.8,
+              duration: 0.6,
               ease: [0.83, 0, 0.17, 1],
-              delay: .1,
+              delay: .5,
             },
             opacity: {
               duration: .4,
               ease: [0.12, 0, 0.39, 0],
-              delay: .1,
+              delay: .4,
             },
           },
         }}
