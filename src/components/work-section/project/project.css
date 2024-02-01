@@ -112,6 +112,8 @@
 
   .project-subheading {
     padding-bottom: 6px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid var(--black);
   }
 
   .project-btn-container {
@@ -133,4 +135,12 @@
     padding: 4px 5px;
     border-radius: 5px;
   }
+
+  .project-copy {
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-bottom: 1px solid var(--black);
+  }
+
 }
+
