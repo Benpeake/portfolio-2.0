@@ -46,7 +46,7 @@ function Nav({ onLanding }) {
               delay: 0.7,
             },
             opacity: {
-              duration: 0.3,
+              duration: 0.2,
               ease: [0.12, 0, 0.39, 0],
               delay: 0.8,
             },
