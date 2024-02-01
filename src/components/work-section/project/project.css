@@ -55,10 +55,15 @@
 .project-subheading {
   padding-bottom: 0.6vw;
   font-weight: 600;
+  padding-bottom: .3vw;
+  border-bottom: .1vw solid var(--black);
 }
 
 .project-copy {
   font-weight: 200;
+  padding-bottom: .3vw;
+  padding-top: .3vw;
+  border-bottom: .1vw solid var(--black);
 }
 
 .project-btn-container {
