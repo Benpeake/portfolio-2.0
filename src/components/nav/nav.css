@@ -11,6 +11,10 @@ nav{
     border-bottom: solid .1vw transparent;
     transition: border-bottom 0.4s ease, box-shadow 0.2s ease, -webkit-backdrop-filter 0.2s ease, backdrop-filter 0.2s ease;
 }
+
+.nav-overlay{
+    overflow: hidden;
+}
 .scrolled{
     border-bottom: solid .09vw var(--black);
     box-shadow: 0 0.05vw 0.5vw rgba(0, 0, 0, 0.05);
