@@ -19,7 +19,7 @@ function PixelPadIntro() {
           }}
         >
           A journal of little things I've built & designed, from past projects
-          or for fun.
+          or just for fun.
         </motion.h2>
       </section>
     </>
