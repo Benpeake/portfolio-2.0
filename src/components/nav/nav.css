@@ -16,7 +16,7 @@ nav{
     overflow: hidden;
 }
 .scrolled{
-    border-bottom: solid .09vw var(--black);
+    border-bottom: solid .1vw var(--black);
     box-shadow: 0 0.05vw 0.5vw rgba(0, 0, 0, 0.05);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
@@ -47,7 +47,7 @@ nav{
             border-bottom: solid 1px transparent;
         }
         .scrolled{
-            border-bottom: solid .9px var(--black);
+            border-bottom: solid 1px var(--black);
         }
         
         .left-right{
