@@ -42,7 +42,7 @@ function Project({ img, title, what, why, how, liveLink, github, tech }) {
         <div className="copy-info-container">
           <div className="project-subinfo-container">
             <div>
-              <p className="project-subheading">what</p>
+              <p className="project-subheading">What</p>
             </div>
             <div>
               <p className="project-copy">{what}</p>
@@ -52,7 +52,7 @@ function Project({ img, title, what, why, how, liveLink, github, tech }) {
         <div className="copy-info-container">
           <div className="project-subinfo-container">
             <div>
-              <p className="project-subheading">why</p>
+              <p className="project-subheading">Why</p>
             </div>
             <div>
               <p className="project-copy">{why}</p>
@@ -62,7 +62,7 @@ function Project({ img, title, what, why, how, liveLink, github, tech }) {
         <div className="copy-info-container">
           <div className="project-subinfo-container">
             <div>
-              <p className="project-subheading">how</p>
+              <p className="project-subheading">How</p>
             </div>
             <div>
               <p className="project-copy">{how}</p>
@@ -70,7 +70,7 @@ function Project({ img, title, what, why, how, liveLink, github, tech }) {
           </div>
         </div>
         <div className="project-btn-container">
-          <OutLinkBtn label={"Live-view"} link={liveLink} />
+          <OutLinkBtn label={"View"} link={liveLink} />
           <OutLinkBtn label={"Github"} link={github} />
         </div>
       </div>

@@ -35,13 +35,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.9vw;
+    font-size: 1.7vw;
     font-weight: 500;
   }
 
   .about-copy{
     font-weight: 300;
-    font-size: 1.9vw;
+    font-size: 1.7vw;
     
   }
 
@@ -82,11 +82,11 @@
         height: 60px;
         border-radius: 50%;
         border: solid 1px var(--black);
-        font-size: 19px;
+        font-size: 17px;
       }
     
       .about-copy{
-        font-size: 19px;
+        font-size: 17px;
         
       }    
   }

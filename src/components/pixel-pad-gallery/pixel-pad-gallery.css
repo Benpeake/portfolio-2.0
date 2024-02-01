@@ -34,6 +34,7 @@
     border-top: solid .1vw ;
     padding-top: .4vw;
     margin-top: 2.4vw;
+    font-weight: 200;
 }
 
 @media screen and (max-width: 1000px){
