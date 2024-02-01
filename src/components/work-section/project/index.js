@@ -13,12 +13,12 @@ function Project({ img, title, what, why, how, liveLink, github, tech }) {
           y: {
             duration: 0.8,
             ease: [0.83, 0, 0.17, 1],
-            delay: 0,
+            delay: 0.1,
           },
           opacity: {
-            duration: 0.5,
+            duration: 0.4,
             ease: [0.12, 0, 0.39, 0],
-            delay: 0.2,
+            delay: 0.3,
           },
         },
       }}

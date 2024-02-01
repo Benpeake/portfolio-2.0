@@ -48,11 +48,11 @@ function Bio() {
                   transition: {
                     y: {
                       duration: 0.8,
-                      ease: [0.33, 1, 0.68, 1],
-                      delay: 0.4,
+                      ease: [0.83, 0, 0.17, 1],
+                      delay: .1,
                     },
                     opacity: {
-                      duration: 1,
+                      duration: 0.4,
                       ease: [0.12, 0, 0.39, 0],
                       delay: 0.2,
                     },

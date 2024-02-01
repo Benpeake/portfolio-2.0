@@ -39,14 +39,14 @@ function Nav({ onLanding }) {
           y: 0,
           transition: {
             y: {
-              duration: 0.4,
+              duration: 0.2,
               ease: [0.83, 0, 0.17, 1],
-              delay: 1,
+              delay: 0.5,
             },
             opacity: {
               duration: 0.4,
               ease: [0.12, 0, 0.39, 0],
-              delay: 1.1,
+              delay: 0.5,
             },
           },
         }}
