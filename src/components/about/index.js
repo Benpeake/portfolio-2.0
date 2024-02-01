@@ -36,7 +36,7 @@ function About() {
                 target="_blank"
                 rel="noopener"
               >
-                <u>Fiasco Design</u>
+                Fiasco Design
               </a>
               {" "}through which I discovered a passion for coding, leading me to
               complete a full-stack bootcamp at{" "}
@@ -46,7 +46,7 @@ function About() {
                 target="_blank"
                 rel="noopener"
               >
-                <u>iO-Academy</u>
+                iO-Academy
               </a>
               .
             </p>

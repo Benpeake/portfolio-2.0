@@ -6,7 +6,7 @@ function PixelPadIntro() {
     <>
       <section className="pizel-pad-intro-section">
         <motion.h2
-          initial={{ opacity: 0.01}}
+          initial={{ opacity: 1}}
           animate={{
             opacity: 1,
             transition: {

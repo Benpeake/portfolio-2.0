@@ -58,7 +58,7 @@ a {
 
 .link{
   display: inline-block;
-  padding-bottom: .4vw;
+  padding-bottom: .3vw;
   position: relative;
 }
 .link::before{
@@ -67,7 +67,7 @@ a {
   right: 0;
   bottom: 0;
   width: 0;
-  height: .08vw;
+  height: .1vw;
   background-color: var(--black);
   transition: width 0.4s cubic-bezier(0.65, 0, 0.35, 1);
 }
@@ -120,7 +120,7 @@ h3{
   }
   
   .link{
-    padding-bottom: 4px;
+    padding-bottom: 3px;
   }
   .link::before{
     content: "";
@@ -128,7 +128,7 @@ h3{
     right: 0;
     bottom: 0;
     width: 0;
-    height: .8px;
+    height: 1px;
     background-color: var(--black);
     transition: width 0.4s cubic-bezier(0.65, 0, 0.35, 1);
   }

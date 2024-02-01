@@ -46,10 +46,12 @@
   }
 
   .body-link{
-    font-style: italic;
+    text-decoration: underline .1vw;
+    text-underline-offset: .2vw;
+    font-weight: 200;
   }
   .body-link:hover{
-    color: var(--silver);
+    cursor: pointer;
   }
 
 
@@ -89,4 +91,9 @@
         font-size: 17px;
         
       }    
+
+      .body-link{
+        text-decoration: underline 1px;
+        text-underline-offset: 2px;
+      }
   }

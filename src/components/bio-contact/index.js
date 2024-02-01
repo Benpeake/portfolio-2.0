@@ -8,7 +8,7 @@ function BioContact ({ title, link, linkText, nonLinkText, mobileHide }) {
       <div className={`bio-text-overlay ${mobileHide ? 'mobileHide' : ''}`}>
       <motion.div
         key={title} 
-        initial={{x: -300, opacity: 0.001}}
+        initial={{x: -400, opacity: 0.001}}
         animate={{x: 0, opacity: 1,
           transition: {
             x: {

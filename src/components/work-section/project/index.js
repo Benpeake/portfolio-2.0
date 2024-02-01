@@ -18,7 +18,7 @@ function Project({ img, title, what, why, how, liveLink, github, tech }) {
           opacity: {
             duration: 0.4,
             ease: [0.12, 0, 0.39, 0],
-            delay: 0.3,
+            delay: 0.4,
           },
         },
       }}
