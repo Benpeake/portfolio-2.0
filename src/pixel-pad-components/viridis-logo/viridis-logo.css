@@ -1,27 +1,27 @@
-#logo-viridis{
-    fill: #1A2218;
+#logo-viridis {
+  fill: #1a2218;
 }
 
-.logo-viridis{
-    width: 25vw;
+.logo-viridis {
+  width: 25vw;
 }
 
-svg{overflow: visible;}
-
-.logo-animation-container{
-    display: grid;
-    gap: 1.2vw;
+svg {
+  overflow: visible;
 }
 
-@media screen and (max-width: 1000px){
-    
-    .logo-viridis{
-        width: 250px;
-    }
-    
-    .logo-animation-container{
-        display: grid;
-        gap: 12px;
-    }
+.logo-animation-container {
+  display: grid;
+  gap: 1.2vw;
+}
 
+@media screen and (max-width: 1000px) {
+  .logo-viridis {
+    width: 250px;
   }
+
+  .logo-animation-container {
+    display: grid;
+    gap: 12px;
+  }
+}
