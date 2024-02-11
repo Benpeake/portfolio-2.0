@@ -10,7 +10,7 @@
 
 .about-sub-section{
     margin: -0.03vw 0;
-    padding: 6vw 2vw;
+    padding: 6vw 6vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100vw;
@@ -65,7 +65,7 @@
     
     .about-sub-section{
         margin: -0.6px 0;
-        padding: 60px 20px;
+        padding: 60px 60px;
         display: grid;
         grid-template-columns: 1fr;
         width: 100vw;
@@ -97,3 +97,12 @@
         text-underline-offset: 2px;
       }
   }
+
+  @media screen and (max-width: 600px){
+    .about-sub-section{
+      padding: 60px 20px;
+      gap: 30px;
+  }
+  }
+
+
